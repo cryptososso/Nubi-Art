@@ -1,0 +1,46 @@
+body{
+	background-color: #F8F8FF;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	height: 200px;
+}
+
+#logo-img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Aguafina Script', cursive;
+    font-family: 'Dancing Script', cursive;
+	color:#3D322F;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+
+.navbar-brand a{
+	text-decoration: none;
+}
+
+.navbar-brand p{
+	color: #3D322F;
+	font-size: .9em;
+	vertical-align: middle;
+}
