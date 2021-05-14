@@ -22,7 +22,7 @@
 		<nav id="header-nav" class="navbar navbar-default">
          <div class="container">
 			 <div class="navbar-header">
-				 <a href="index.html" class="float-lg-start d-none d-sm-block">
+				 <a href="index.html" class="pull-left visible-md visible-lg">
 					 <div id="logo-img" alt="Logo image "></div>
 				 </a>
 				 <div class="navbar-brand">
@@ -30,14 +30,29 @@
 					 <p>L'excellence artistique togolais !</p>
 				 </div>
 				 <div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					  <span class="d-none">Toggle navigation</span>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					  <span class="icon-bar"></span>
 					</button>
 				  </div>
-				
+			 </div>
+
+			 <div id="collapseble-nav" class="collapse navbar-collapse">
+				 <ul id="nav-list" class="nav navbar-nav navbar-right">
+					 <li>
+						 <a href="A-propos.html">
+							 <span <i class="bi bi-info-square">A propos</i></span>
+						 </a>
+					 </li>
+					 <li id="phone" class="hidden-xs">
+						 <a href="tel:+22891928487">
+							 <span>tel:+22891928487</span>
+						 </a>
+					 </li>
+				 </ul>
+
 			 </div>
 		 </div>
 		</nav>
