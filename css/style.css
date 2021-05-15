@@ -77,11 +77,42 @@ text-decoration: none;
 }
 
 .nav-header button.navbar-toggle, .navbar-header .icon-bar{
-	border: 1px solid #282220;
+	border: 1px solid #524a48;
 	margin-top: 10px; 
 }
 
 .navbar-header button.navbar-toggle{
 	clear: both;
 	margin-top: -30px;
+}
+.jumbotron{
+	margin-top: 15px;
+}
+
+@media(min-width: 1200px) {
+	.jumbotron{
+		background: url('../img/femme_noire_1200.jpg') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #A09B9B;
+		border: 2px solid #A09B9B;
+	}
+	
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+		background: url('../img/femme_noire_992.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #A09B9B;
+		border: 2px solid #A09B9B;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+		background: url('../img/femme_noire_768.jpg') no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px #A09B9B;
+		border: 2px solid #A09B9B;
+	}
 }
