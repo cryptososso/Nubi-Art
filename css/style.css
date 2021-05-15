@@ -10,13 +10,13 @@ body{
 	border-radius: 0;
 	border-radius: 0;
 	border: 0;
-	height: 150px;
+	height: 120px;
 }
 
 #logo-img{
 	background: url('../img/logo-nubi-art-sm.png') no-repeat;
 	width: 150px;
-	height: 150px;
+	height: 120px;
 	margin: 10px 15px 10px 0;
 	border: 1px solid black;
 }
@@ -50,4 +50,38 @@ text-decoration: none;
 
 .icon-bar{
 	margin-bottom: 10px;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color : #2A2524;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background:white;
+	text-shadow: whitesmoke;
+}
+
+#nav-list a span{
+	font-size: 1em;
+}
+
+#phone div {
+	color :white;
+	text-align: right;
+	padding-right:15px; 
+}
+
+.nav-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #282220;
+	margin-top: 10px; 
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
 }
