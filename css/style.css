@@ -95,6 +95,20 @@ text-decoration: none;
 	border: 2px solid #A09B9B;
 }
 
+#actualités-tile, #galerie-tile, #découvrir-tile{
+height: 300px;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #3F0C1F;
+overflow: hidden;
+}
+
+#actualités-tile:hover, #galerie-tile:hover, #découvrir-tile:hover{
+	box-shadow: 0 1px 5px 1px #524a48;
+}
+
+
 @media(min-width: 1200px) {
 	.container .jumbotron{
 		background: url('../img/femme-aux-fleur-1200.jpg') no-repeat;
@@ -116,3 +130,4 @@ text-decoration: none;
 		height: 432px;
 	}
 }
+
