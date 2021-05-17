@@ -108,6 +108,33 @@ overflow: hidden;
 	box-shadow: 0 1px 5px 1px #524a48;
 }
 
+#actualités-tile{
+	background: url('../img/actualité.jpg') no-repeat;
+	background-position: center;
+}
+
+#galerie-tile{
+	background: url('../img/galerie_art.jpg') no-repeat;
+	background-position: center;
+}
+
+#découvrir-tile{
+	background: url('../img/decouverte.jpg') no-repeat;
+	background-position: center;
+}
+
+#actualités-tile span, #galerie-tile span, #découvrir-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform:capitalize;
+	background-color: black;
+	color: white;
+	opacity: .7;
+}
 
 @media(min-width: 1200px) {
 	.container .jumbotron{
