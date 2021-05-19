@@ -86,6 +86,47 @@ text-decoration: none;
 	margin-top: -30px;
 }
 
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+	opacity: .8;
+	color: white;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#mail, #contact{
+	line-height: 1.5;
+}
+
+#mail > span, #contact > span{
+	text-decoration-line: underline;
+	font-size: 1.2em;
+}
+
+#mail a, #contact a{
+	text-decoration: none;
+	color: white;
+}
+
+#citation{
+	font-style: italic;
+}
+
+#citation p{
+	font-size: 1em;
+	line-height: 1;
+}
+
+#citation p:nth-child(2){
+margin-top: 15px;
+}
+
 #main-content{
 	margin-top: 15px;
 }
