@@ -101,6 +101,7 @@ text-decoration: none;
 }
 
 #mail, #contact{
+	text-align: center;
 	line-height: 1.5;
 }
 
@@ -115,11 +116,13 @@ text-decoration: none;
 }
 
 #citation{
+	text-align: center;
 	font-style: italic;
+	padding-right: 15px;
 }
 
 #citation p{
-	font-size: 1em;
+	font-size: 15px;
 	line-height: 1;
 }
 
