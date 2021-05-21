@@ -1,0 +1,131 @@
+body{
+	background-color: #F8F8FF;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+#header-nav{
+	background-color:#F8F8FF;
+	border-radius: 0;
+	border-radius: 0;
+	border: 0;
+	height: 120px;
+}
+
+#logo-img{
+	background: url('../img/logo-nubi-art-sm.png') no-repeat;
+	width: 150px;
+	height: 120px;
+	margin: 10px 15px 10px 0;
+	border: 1px solid black;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Dancing Script', cursive;
+	color:#282220 ;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #C8ABA3 ;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+.navbar-brand a{
+text-decoration: none;
+}
+
+.navbar-brand p{
+	color:#2A2524; 
+	font-size: .9em;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.icon-bar{
+	margin-bottom: 10px;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color : #2A2524;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background:white;
+	text-shadow: whitesmoke;
+}
+
+#nav-list a span{
+	font-size: 1em;
+}
+
+#phone{
+	color :white;
+	text-align: right;
+	padding-right:15px; 
+}
+
+.nav-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #524a48;
+	margin-top: 10px; 
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+	opacity: .8;
+	color: white;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#mail, #contact{
+	text-align: center;
+	line-height: 1.5;
+}
+
+#mail > span, #contact > span{
+	text-decoration-line: underline;
+	font-size: 1.2em;
+}
+
+#mail a, #contact a{
+	text-decoration: none;
+	color: white;
+}
+
+#citation{
+	text-align: center;
+	font-style: italic;
+	padding-right: 15px;
+}
+
+#citation p{
+	font-size: 15px;
+	line-height: 1;
+}
+
+#citation p:nth-child(2){
+margin-top: 15px;
+}

@@ -118,7 +118,7 @@ text-decoration: none;
 #citation{
 	text-align: center;
 	font-style: italic;
-	padding-right: 15px;
+	padding-right: 30px;
 }
 
 #citation p{
@@ -129,6 +129,11 @@ text-decoration: none;
 #citation p:nth-child(2){
 margin-top: 15px;
 }
+
+.fab fa-facebook{
+	width: 50px;
+}
+
 
 #main-content{
 	margin-top: 15px;
