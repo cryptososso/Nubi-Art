@@ -100,17 +100,18 @@ text-decoration: none;
 	margin-bottom: 35px;
 }
 
-#mail, #contact{
+#mail, #contact, #social{
 	text-align: center;
 	line-height: 1.5;
 }
 
-#mail > span, #contact > span{
+#mail > span, #contact > span, #social > span{
 	text-decoration-line: underline;
 	font-size: 1.2em;
 }
 
-#mail a, #contact a{
+
+#mail a, #contact a, #social a{
 	text-decoration: none;
 	color: white;
 }
@@ -130,14 +131,10 @@ text-decoration: none;
 margin-top: 15px;
 }
 
-.fab fa-facebook{
-	width: 50px;
-}
-
-
 #main-content{
 	margin-top: 15px;
 }
+
 .container .jumbotron{
 	margin-top: 15px;
 	box-shadow: 0 0 50px #A09B9B;
