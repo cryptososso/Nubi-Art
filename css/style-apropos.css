@@ -88,10 +88,61 @@ text-decoration: none;
 
 #main-content{
     background: url('../img/chevalet-1600.jpg') no-repeat;
+    position: relative;
     background-size: 100% 100%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 10px 40px 10px;
+    margin-bottom: 40px;
 }
+
+#page-title{
+    font-family: 'Dancing Script', cursive;
+	color:#282220 ;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #C8ABA3 ;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 1;
+}
+
+#citation1{
+    font-style: italic;
+    font-size: 1em;
+    margin-bottom: 40px;
+    line-height: 2;
+}
+
+.présentation{
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.button{
+    display: inline;
+    margin-left: 50%;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: wheat;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.button a{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 8px black;
+}
+
 
 
 .panel-footer{
@@ -138,7 +189,89 @@ text-decoration: none;
 margin-top: 15px;
 }
 
+@media(min-width: 1200px) {
+	#main-content{
+		background: url('../img/chevalet-1600.jpg') no-repeat;
+		background-size: 100% 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+		
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#main-content{
+		background: url('../img/chevalet-992.jpg') no-repeat;
+		background-size: 100% 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#main-content{
+		background: url('../img/chevalet-768.jpg') no-repeat;
+		background-size: 100% 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+	}
+}
 
 
+@media(min-width: 1200px) {
+	.button{
+        display: inline;
+        margin-left: 45%;
+        font-size: 1em;
+        text-transform: uppercase;
+        background-color: wheat;
+        padding: 10px;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    
+}
+@media(min-width: 992px) and (max-width: 1199px){ 
+	.button{
+        display: inline;
+        margin-left: 45%;
+        font-size: 1em;
+        text-transform: uppercase;
+        background-color: wheat;
+        padding: 10px;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        opacity: 1;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.button{
+        display: inline;
+        margin-left: 45%;
+        padding-left: 30%;
+        font-size: 1em;
+        text-transform: uppercase;
+        background-color: wheat;
+        padding: 10px;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        opacity: 1;
+    }
+}
 
+@media(max-width: 767px){
+	.button{
+        display: inline;
+        margin-left: 35%;
+        padding-left: 30%;
+        font-size: 1em;
+        text-transform: uppercase;
+        background-color: wheat;
+        padding: 10px;
+        border: 1px solid wheat;
+        border-radius: 10px;
+        opacity: 1;
+    }
+}
 
