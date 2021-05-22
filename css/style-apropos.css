@@ -1,5 +1,5 @@
 body{
-	background-color: #F8F8FF;
+	background-color:#F8F8FF:;
 	font-family: 'Oxygen', sans-serif;
 	color: black;
 	font-size: 16px;
@@ -10,7 +10,7 @@ body{
 	border-radius: 0;
 	border-radius: 0;
 	border: 0;
-	height: 120px;
+	height: 130px;
 }
 
 #logo-img{
@@ -86,9 +86,16 @@ text-decoration: none;
 	margin-top: -30px;
 }
 
+#main-content{
+    background: url('../img/chevalet-1600.jpg') no-repeat;
+    background-size: 200% 100%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
 .panel-footer{
 	margin-top: 30px;
-	padding-top: 35px;
+	padding-top: 25px;
 	padding-bottom: 30px;
 	background-color: black;
 	border-top: 0;
@@ -100,17 +107,17 @@ text-decoration: none;
 	margin-bottom: 35px;
 }
 
-#mail, #contact{
+#mail, #contact, #social{
 	text-align: center;
 	line-height: 1.5;
 }
 
-#mail > span, #contact > span{
+#mail > span, #contact > span, #social > span{
 	text-decoration-line: underline;
 	font-size: 1.2em;
 }
 
-#mail a, #contact a{
+#mail a, #contact a, #social a{
 	text-decoration: none;
 	color: white;
 }
@@ -129,3 +136,8 @@ text-decoration: none;
 #citation p:nth-child(2){
 margin-top: 15px;
 }
+
+
+
+
+
