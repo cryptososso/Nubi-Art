@@ -14,7 +14,7 @@ body{
 }
 
 #logo-img{
-	background: url('../img/logo-nubi-art-sm.png') no-repeat;
+	background: url('../img/img-index/logo-nubi-art-sm.png') no-repeat;
 	width: 150px;
 	height: 120px;
 	margin: 10px 15px 10px 0;
@@ -155,17 +155,17 @@ overflow: hidden;
 }
 
 #nouveautés-tile{
-	background: url('../img/actualité.jpg') no-repeat;
+	background: url('../img/img-index/actualité.jpg') no-repeat;
 	background-position: center;
 }
 
 #galerie-tile{
-	background: url('../img/galerie_art.jpg') no-repeat;
+	background: url('../img/img-index/galerie_art.jpg') no-repeat;
 	background-position: center;
 }
 
 #découvrir-tile{
-	background: url('../img/decouverte.jpg') no-repeat;
+	background: url('../img/img-index/decouverte.jpg') no-repeat;
 	background-position: center;
 }
 
@@ -184,7 +184,7 @@ overflow: hidden;
 
 @media(min-width: 1200px) {
 	.container .jumbotron{
-		background: url('../img/femme-aux-fleur-1200.jpg') no-repeat;
+		background: url('../img/img-index/femme-aux-fleur-1200.jpg') no-repeat;
 		height: 675px;
 		
 	}
@@ -192,14 +192,14 @@ overflow: hidden;
 
 @media(min-width: 992px) and (max-width: 1199px){
 	.container .jumbotron{
-		background: url('../img/femme-aux-fleur-992.jpg') no-repeat;
+		background: url('../img/img-index/femme-aux-fleur-992.jpg') no-repeat;
 		height: 558px;
 	}
 }
 
 @media(min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
-		background: url('../img/femme-aux-fleur-768.jpg') no-repeat;
+		background: url('../img/img-index/femme-aux-fleur-768.jpg') no-repeat;
 		height: 432px;
 	}
 }
