@@ -124,7 +124,7 @@ text-decoration: none;
 
 .button{
     display: inline;
-    margin-left: 50%;
+    margin-left: 45%;
     font-size: 1em;
     text-transform: uppercase;
     background-color: wheat;
@@ -143,7 +143,9 @@ text-decoration: none;
     text-shadow: 3px 3px 8px black;
 }
 
-
+.button:hover{
+	box-shadow:0 1px 5px 1px #424242;
+}
 
 .panel-footer{
 	margin-top: 30px;
@@ -217,7 +219,6 @@ margin-top: 15px;
 	}
 }
 
-
 @media(min-width: 1200px) {
 	.button{
         display: inline;
@@ -274,4 +275,5 @@ margin-top: 15px;
         opacity: 1;
     }
 }
+
 
