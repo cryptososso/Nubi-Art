@@ -141,7 +141,7 @@ margin-top: 15px;
 	border: 2px solid #A09B9B;
 }
 
-#actualités-tile, #galerie-tile, #découvrir-tile{
+#nouveautés-tile, #galerie-tile, #découvrir-tile{
 height: 300px;
 width: 100%;
 margin-bottom: 15px;
@@ -150,11 +150,11 @@ border: 2px solid #3F0C1F;
 overflow: hidden;
 }
 
-#actualités-tile:hover, #galerie-tile:hover, #découvrir-tile:hover{
+#nouveautés-tile:hover, #galerie-tile:hover, #découvrir-tile:hover{
 	box-shadow: 0 1px 5px 1px #524a48;
 }
 
-#actualités-tile{
+#nouveautés-tile{
 	background: url('../img/actualité.jpg') no-repeat;
 	background-position: center;
 }
@@ -169,7 +169,7 @@ overflow: hidden;
 	background-position: center;
 }
 
-#actualités-tile span, #galerie-tile span, #découvrir-tile span{
+#nouveautés-tile span, #galerie-tile span, #découvrir-tile span{
 	position: absolute;
 	bottom: 0;
 	right: 0;
