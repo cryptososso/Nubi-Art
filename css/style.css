@@ -48,6 +48,12 @@ text-decoration: none;
 	vertical-align: middle;
 }
 
+
+#collapsable-nav{
+	background-color: #FAFCFC;
+	height: 600px;
+}
+
 .icon-bar{
 	margin-bottom: 10px;
 }
@@ -57,13 +63,13 @@ text-decoration: none;
 }
 
 #nav-list a {
-	color : #2A2524;
+	color : black;
 	text-align: center;
 }
 
 #nav-list a:hover{
-	background:white;
-	text-shadow: whitesmoke;
+	background: #E3E8E8;
+	text-shadow:1px 1px 1px #CACCCC;
 }
 
 #nav-list a span{
@@ -76,9 +82,11 @@ text-decoration: none;
 	padding-right:15px; 
 }
 
+
 .nav-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid #524a48;
-	margin-top: 10px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
 }
 
 .navbar-header button.navbar-toggle{
@@ -110,12 +118,6 @@ text-decoration: none;
 	font-size: 1.2em;
 }
 
-
-#mail a, #contact a, #social a{
-	text-decoration: none;
-	color: white;
-}
-
 #citation{
 	text-align: center;
 	font-style: italic;
@@ -136,8 +138,8 @@ margin-top: 15px;
 }
 
 .container .jumbotron{
-	margin-top: 15px;
 	box-shadow: 0 0 50px #A09B9B;
+	margin-top: 30px;
 	border: 2px solid #A09B9B;
 }
 
@@ -147,6 +149,7 @@ width: 100%;
 margin-bottom: 15px;
 position: relative;
 border: 2px solid #3F0C1F;
+border-radius: 10%;
 overflow: hidden;
 }
 
@@ -203,4 +206,5 @@ overflow: hidden;
 		height: 432px;
 	}
 }
+
 

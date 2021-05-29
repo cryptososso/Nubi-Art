@@ -132,7 +132,7 @@ margin-top: 15px;
 }
 
 #main-content{
-    background: #F2F1F0;
+	background-color:#F8F8FF;
     position: relative;
     background-size: 100% 100%;
     margin-left: auto;
@@ -163,7 +163,7 @@ margin-top: 15px;
 .category-tile{
     position: relative;
     border: 2px solid #4A412E;
-    border-radius: 5px;
+    border-radius: 10%;
     overflow: hidden;
     width: 250px;
     height: 250px;
