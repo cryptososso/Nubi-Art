@@ -49,17 +49,14 @@ text-decoration: none;
 }
 
 
-#collapsable-nav{
-	background-color: #FAFCFC;
-	height: 600px;
-}
-
 .icon-bar{
 	margin-bottom: 10px;
 }
 
 #nav-list{
 	margin-top: 10px;
+	background-color:#FCFCFC;
+	opacity: 0.8;
 }
 
 #nav-list a {
@@ -74,6 +71,7 @@ text-decoration: none;
 
 #nav-list a span{
 	font-size: 1em;
+	color: black;
 }
 
 #phone{
@@ -205,6 +203,8 @@ overflow: hidden;
 		background: url('../img/img-index/femme-aux-fleur-768.jpg') no-repeat;
 		height: 432px;
 	}
+
+
 }
 
 
