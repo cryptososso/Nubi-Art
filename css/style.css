@@ -94,7 +94,7 @@ text-decoration: none;
 
 .panel-footer{
 	margin-top: 30px;
-	padding-top: 25pxpx;
+	padding-top: 25px;
 	padding-bottom: 30px;
 	background-color: black;
 	border-top: 0;
@@ -114,6 +114,11 @@ text-decoration: none;
 #mail > span, #contact > span, #social > span{
 	text-decoration-line: underline;
 	font-size: 1.2em;
+}
+
+#mail a, #contact a, #social a{
+	text-decoration: none;
+	color: white;
 }
 
 #citation{
