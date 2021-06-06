@@ -195,3 +195,13 @@ margin-top: 15px;
 #menu-galerie-titre + div {
     margin-bottom: 50px;
 }
+
+.artiste{
+    text-decoration: none;
+    color: black;
+}
+
+.artiste:hover{
+    text-decoration: none;
+    color: royalblue;
+}
