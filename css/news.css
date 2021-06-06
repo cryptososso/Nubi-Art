@@ -1,0 +1,197 @@
+body{
+	background-color: #F8F8FF;
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+#header-nav{
+	background-color:#F8F8FF;
+	border-radius: 0;
+	border-radius: 0;
+	border: 0;
+	height: 130px;
+}
+
+#logo-img{
+	background: url('../img/img-index/logo-nubi-art-sm.png') no-repeat;
+	width: 150px;
+	height: 120px;
+	margin: 10px 15px 10px 0;
+	border: 1px solid black;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Dancing Script', cursive;
+	color:#282220 ;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #C8ABA3 ;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+.navbar-brand a{
+text-decoration: none;
+}
+
+.navbar-brand p{
+	color:#2A2524; 
+	font-size: .9em;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.icon-bar{
+	margin-bottom: 10px;
+}
+
+#nav-list{
+	margin-top: 10px;
+	background-color:#FCFCFC;
+	opacity: 0.8;
+	position: relative;
+	z-index: 2;
+}
+
+
+#nav-list a {
+	color : #2A2524;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background:white;
+	text-shadow: whitesmoke;
+}
+
+#nav-list a span{
+	font-size: 1em;
+}
+
+#phone{
+	color :white;
+	text-align: right;
+	padding-right:15px; 
+}
+
+.nav-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #524a48;
+	margin-top: 10px; 
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+	opacity: .8;
+	color: white;
+}
+
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#mail, #contact, #social{
+	text-align: center;
+	line-height: 1.5;
+}
+
+#mail > span, #contact > span, #social > span{
+	text-decoration-line: underline;
+	font-size: 1.2em;
+}
+
+
+#mail a, #contact a, #social a{
+	text-decoration: none;
+	color: white;
+}
+
+#citation{
+	text-align: center;
+	font-style: italic;
+	padding-right: 30px;
+}
+
+#citation p{
+	font-size: 15px;
+	line-height: 1;
+}
+
+#citation p:nth-child(2){
+margin-top: 15px;
+}
+
+#main-content{
+	background-color:#F8F8FF;
+    position: relative;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 10px 40px 10px;
+    margin-bottom: 40px;
+}
+
+#news-titre{
+    font-family: 'Limelight', cursive;
+	color:#282220 ;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #C8ABA3 ;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	line-height: 1;
+}
+
+
+.category-tile{
+    position: relative;
+    border: 2px solid #4A412E;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    opacity: .7;
+}
+
+.legende{
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.category-tile:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1px 5px 1px #424242;
+}
+
+#menu-galerie-titre + div {
+    margin-bottom: 50px;
+}
