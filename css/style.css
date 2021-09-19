@@ -40,6 +40,7 @@ p{
 	text-align: center;
 }
 
+
 section{
 	padding: 30px 10px;
 }
@@ -57,14 +58,6 @@ section{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.grid-1 {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr );
-	gap : 15px;
-	justify-content: center;
-	height: 100%;
 }
 
 ul{
@@ -217,7 +210,7 @@ a {
 	margin-bottom: 30px;
 }
 
-.button:hover, .button:focus{
+.button:hover{
    transform: scale(0.9);
    transition: all 1000ms ease-in;	
 }
@@ -235,11 +228,10 @@ a {
 	}
 
 	.button:hover{
-		transform: scale(1.5);
+		transform: scale(0.9);
 		transition: all 1000ms ease-in;
 	 }	 
 }
-
 
 /*footer*/
 
@@ -270,6 +262,15 @@ a {
 .menu-list a:hover{
 	color: #333;
 
+}
+
+.footer i{
+     font-size: 40px;
+	 color: blue;
+}
+
+.footer i:hover {
+	transform: scale(0.9);
 }
 
 
@@ -313,7 +314,16 @@ a {
 
 	}
 
+	.footer i{
+		margin: 20px 0;
+		color: blue;
+	}
+
+	.footer i:hover {
+		transform: scale(0.9);
+	}
+
 	
 
-	}
+}
 
