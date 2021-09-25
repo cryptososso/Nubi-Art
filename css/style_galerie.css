@@ -189,10 +189,8 @@ a {
 
 /*Art*/
 .art{
-    position: relative;
     margin-top: 20px;
     margin-bottom: 10px;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -253,7 +251,7 @@ a {
 @media(max-width : 900px){
     .art h2{
         font-weight: 900;
-        font-size: 18px;
+        font-size: 15px;
         color:rgb(255, 255, 255);
         text-shadow: 1px 1px 2px grey, 0 0 0.5em #333, 0 0 0.2em #333;
         margin-bottom: 10px;
@@ -262,7 +260,7 @@ a {
     .painting-box{
         width: 90%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap : 5px;
         justify-content: center;
         align-items: center;
@@ -270,11 +268,14 @@ a {
      } 
 
      .painting-box img {
-        width: 120px;
+        width: 170px;
         border: 3px solid black;
         transition: transform 1s ease-in;
     }
 
+    .painting-box img:hover{
+        transform: scale(0.9);
+    }
 
    .painting-box h3{
     font-size: 13px;
