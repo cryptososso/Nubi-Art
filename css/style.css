@@ -237,7 +237,7 @@ a {
 
 .footer{
 	background: var(--background-color);
-	color: #fff;
+	color: #333;
 	text-align: left;
 	margin-top: 0;
 	padding: 15px;
@@ -254,19 +254,19 @@ a {
 }
 
 .menu-list a{
-	color: #fff;
+	color: #333;
 	transition: color 1000ms ease;
 
 }
 
 .menu-list a:hover{
-	color: #333;
+	color: #fff;
 
 }
 
 .footer i{
      font-size: 40px;
-	 color: blue;
+	 color:rgb(96, 96, 228);
 }
 
 .footer i:hover {
@@ -286,7 +286,7 @@ a {
 
 	.footer{
 		background: var(--background-color);
-		color: #fff;
+		color: #333;
 		text-align: center;
 		margin-top: 0;
 		padding: 15px;
@@ -304,19 +304,19 @@ a {
 	}
 
 	.menu-list a{
-		color: #fff;
+		color: #333;
 		transition: color 1000ms ease;
 
 	}
 
 	.menu-list a:hover{
-		color: #333;
+		color: #fff;
 
 	}
 
 	.footer i{
 		margin: 20px 0;
-		color: blue;
+		color: rgb(96, 96, 228);
 	}
 
 	.footer i:hover {
