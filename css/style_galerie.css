@@ -127,24 +127,24 @@ a {
 
 /*Showcase*/
 
-.showcase{
+.showcase-art{
 	margin-top: 20px;
     margin-bottom: 15px;
 	height: 10%;
 	padding: 5% 0;
 	background: rgba(102,92,92,0.02);
-	color:rgb(255, 255, 255);
+	color: #333;
 	border: 2px solid black;
 	position: relative;
 }
 
-.showcase::before{
+.showcase-art::before{
 	content: "";
 	background: url('../img/img-index/masque_info.jpg') no-repeat center center/cover;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 50%;
+	width: 45%;
 	height: 100%;
 	z-index: -1;
 }
@@ -164,17 +164,27 @@ a {
 
 
 @media(max-width : 900px){
-	.showcase{
+	.showcase-art{
 		margin-top: 30px;
 		margin-bottom: 0;
 		height: 10%;
 		padding: 10% 0;
 		background: var(--background-color);
-		color:#fff;
+		color: #fff;
 		border: 3px solid black;
 		position: relative;
 	}
 	
+	.showcase-art::before{
+		content: "";
+		background: url('../img/img-index/masque_info.jpg') no-repeat center center/cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 30%;
+		height: 100%;
+		z-index: -1;
+	}
 
 	.showcase h1{
 		font-size: 20px;
@@ -395,18 +405,18 @@ a {
 
 /*Showcase*/
 
-.showcase{
+.showcase-artist{
 	margin-top: 20px;
     margin-bottom: 15px;
 	height: 10%;
 	padding: 8% 0;
 	background: rgba(102,92,92,0.02);
-	color:rgb(255, 255, 255);
+	color:rgb(39, 37, 37);
 	border: 2px solid black;
 	position: relative;
 }
 
-.showcase::before{
+.showcase-artist::before{
 	content: "";
 	background: url('../img/img-index/image-page-artiste.jpg') no-repeat center center/cover;
 	position: absolute;
@@ -417,14 +427,14 @@ a {
 	z-index: -1;
 }
 
-.showcase h1{
+.showcase-artist h1{
 	font-size: 30px;
 	margin-bottom: 30px;
 	font-weight: 900;
-    text-shadow: 1px 1px 2px grey, 0 0 0.5em #333, 0 0 0.2em #333;
+    text-shadow: 1px 1px 2px grey, 0 0 0.5em rgb(56, 55, 55), 0 0 0.2em rgb(78, 77, 77);
 }
 
-.showcase p{
+.showcase-artist p{
 	font-size: 25px;
     font-weight: 600;
 	text-shadow: 1px 1px 2px grey, 0 0 0.5em #333, 0 0 0.2em #333;	
@@ -444,13 +454,14 @@ a {
 	}
 	
 
-	.showcase h1{
+	.showcase-artist h1{
 		font-size: 20px;
 		margin-bottom: 30px;
 		font-weight: 900;
+		text-shadow: 1px 1px 2px grey, 0 0 0.5em rgb(56, 55, 55), 0 0 0.2em rgb(78, 77, 77);
 	}
 
-.showcase p{
+.showcase-artist p{
 	font-size: 15px;
 	padding-bottom: 5%;
 }
