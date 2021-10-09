@@ -130,9 +130,11 @@ a {
 .card{
 	margin-top: 20px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    border: 2px solid rgba(75, 73, 73, 0.2);
+    border: 5px solid rgba(75, 73, 73, 0.2);
+	border-radius: 10px;
 	margin: 0 auto;
-	padding: 30px;
+	margin-bottom: 60px;
+	padding: 30px 30px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -165,7 +167,7 @@ a {
 	line-height: 1.6;
 	font-size: 20px;
 	font-weight: 500;
-	margin-bottom: 0;
+	margin: 0 30px;
 }
 
 .social-link i{
@@ -219,7 +221,104 @@ a {
 	
 }
 
+/*Paintings*/
+.card-paintings{
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px 30px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap : 15px;
+	text-align: center;
+}
 
+.card-title{
+	font-weight: 900;
+	font-size: 25px;
+	margin: 35px;
+}
+
+.card-title::after{
+	content: " ";
+	display: block;
+	height: 5px;
+	width: 350px;
+	background: rgba(0, 0, 0, 0.2);
+	margin: 5px;
+	opacity: 0.5;
+}
+
+.card-paintings img{
+	width: 400px;
+	margin: 10px;
+	border: 3px solid black;
+	transition: transform 1.5s ease-in;
+}
+
+.paintings-link{
+	color: rgba(22, 21, 21, 0.9);
+	font-size: 18px;
+}
+
+.card-paintings img:hover{
+	transform: scale(0.9);
+}
+
+.paintings-link h3:hover{
+	transition: transform 1.5s ease-in;
+}
+
+.paintings-link h3:hover{
+	transform: scale(0.9);
+	color: rgb(139, 139, 206);
+}
+
+@media (max-width: 900px) {
+	.card-paintings{
+		margin: 0 auto;
+		margin-top: 20px;
+		padding: 30px 30px;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap : 15px;
+		text-align: center;
+	}
+	
+.card-title{
+	font-size: 13px;
+	margin: 25px;
+	text-align: center;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1.6;
+	letter-spacing: 2px;
+}
+
+.card-title::after{
+	content: " ";
+	display: block;
+	height: 5px;
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background: rgba(0, 0, 0, 0.2);
+	opacity: 0.5;
+}
+
+.card-paintings img{
+	width: 200px;
+	margin: 10px;
+	border: 3px solid black;
+	transition: transform 1.5s ease-in;
+}
+
+.paintings-link{
+	color: rgba(22, 21, 21, 0.9);
+	font-size: 15px;
+}
+}
 
 /*footer*/
 
